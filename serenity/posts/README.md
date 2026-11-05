@@ -5,3 +5,5 @@
   旧批次配音稿还没有“钩子在前”的开头。
 - 20261031_vincent：账号 vincent（@SPCX100T），封面模板用 tools/cover_tpl_vincent.png。
 - 20261102：01 为充电视频（对冲基金去杠杆）。
+- 20261104：三篇（Aehr/Fabrinet 财报大涨；AAOI 云南锗业磷化铟长单（充电）；选举夜 AI 末日论），文案见 20261104/文案.md。
+  AGLT（Agility Robotics 合并获批）帖只收到上半部分，待补引用框和底部互动栏后再做。
