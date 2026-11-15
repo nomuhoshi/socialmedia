@@ -1,0 +1,75 @@
+NativeLog.cpp strLogName : bcut_main
+[0;32m2026/11/11 04:31:39.494000 284-288/I/ctools/MontageFunctions.cpp:166:loadLibrary success, dll: àîþÿ
+[0m[0;32m2026/11/11 04:31:39.497000 284-288/I/ctools/EditorGlobalConfig.cpp:33:EditorGlobalConfig amd_d3d_interop_driver_version_threshold_ = 31.0.12019.16007
+[0m[0;32m2026/11/11 04:31:39.497000 284-288/I/ctools/EditorGlobalConfig.cpp:39:EditorGlobalConfig intel_d3d_interop = 1
+[0m[0;32m2026/11/11 04:31:39.497000 284-288/I/ctools/EditorGlobalConfig.cpp:41:EditorGlobalConfig amd_d3d_interop = 1
+[0m[0;32m2026/11/11 04:31:39.497000 284-288/I/ctools/EditorGlobalConfig.cpp:47:EditorGlobalConfig amd_enc_dts_frame_diff = 5
+[0m[0;32m2026/11/11 04:31:39.497000 284-288/I/ctools/EditorGlobalConfig.cpp:49:EditorGlobalConfig max_log_file_size = 50 MB
+[0m[0;32m2026/11/11 04:31:39.497000 284-288/I/ctools/EditorGlobalConfig.cpp:51:EditorGlobalConfig log_file_over_days = 3 days
+[0m[0;32m2026/11/11 04:31:39.497000 284-288/I/ctools/FileInfoManager.cpp:42:FileInfoManager open disk cache ,cache path is C:/users/box/AppData/Roaming/BCUT/Cache/avInfoCache/
+[0m[0;32m2026/11/11 04:31:39.497000 284-288/I/ctools/log.cpp:380:Compilation time: Mar  3 2026 22:37:33.
+[0m[0;32m2026/11/11 04:31:40.417000 284-288/I/ctools/GraphicsEnvManager.cpp:14:[GraphicsEnvManager] GraphicsEnvManager created.
+[0m[0;32m2026/11/11 04:31:40.417000 284-288/I/ctools/D3D11Manager.cpp:22:[D3D11Manager] Initializing D3D11Manager...
+[0m[0;32m2026/11/11 04:31:40.497000 284-288/I/ctools/SystemInfos.cpp:185:getAllGpuInformations GpuInformation: Name=NVIDIA GeForce GTX 470, VendorID=0x10DE, DeviceID=0x6CD, LUID=0x3F4, DriverVersion=8.21.13.9135, AttachedToMonitor=1
+[0m[0;32m2026/11/11 04:31:40.497000 284-288/I/ctools/SystemInfos.cpp:68:Best Performance GPU: Name=NVIDIA GeForce GTX 470, VendorID=0x10DE, DeviceID=0x6CD, LUID=0x3F4, DriverVersion=8.21.13.9135, AttachedToMonitor=1
+[0m[0;32m2026/11/11 04:31:40.497000 284-288/I/ctools/D3D11DevicePool.cpp:39:[D3D11DevicePool][00007F996208D2A0] created with device LUID: 1741, Name: NVIDIA GeForce GTX 470
+[0m[0;32m2026/11/11 04:31:40.497000 284-288/I/ctools/D3D11DeviceAllocator.cpp:25:[init] DevicePool init.
+[0m[0;32m2026/11/11 04:31:40.498000 284-504/I/ctools/D3D11Manager.cpp:54:[AngleHolderThread] start this 00007F98E3E9B660
+[0m[0;32m2026/11/11 04:31:40.498000 284-504/I/ctools/AngleContextImpl.cpp:42:[Angle] AngleContextImpl() this: 00007F99625A8660
+[0m[0;32m2026/11/11 04:31:40.627000 284-504/I/ctools/AngleContextImpl.cpp:98:[Angle] initialized, version 1.5
+[0m[0;32m2026/11/11 04:31:40.628000 284-504/I/ctools/AngleContextImpl.cpp:147:[Angle] AngleContextImpl initialized successfully this: 00007F99625A8660
+[0m[0;32m2026/11/11 04:31:40.628000 284-504/I/ctools/AngleBlobCache.cpp:64:[AngleBlobCache] Initializing with cache directory: C:/users/box/AppData/Roaming/BCUT/Cache/blobCache/
+[0m[0;32m2026/11/11 04:31:40.628000 284-504/I/ctools/AngleBlobCache.cpp:82:[AngleBlobCache] EGL blob cache callbacks registered successfully.
+[0m[0;32m2026/11/11 04:31:40.628000 284-504/I/ctools/D3D11TexturePool.cpp:59:[D3D11TexturePool][00007F996254B4B0] start
+[0m[0;32m2026/11/11 04:31:40.721000 284-504/I/ctools/D3D11Device.cpp:108:D3D11Device: Creating D3D11 device with flags: 0x20, adpter is 00007F98E1679E80
+[0m[0;32m2026/11/11 04:31:40.733000 284-504/I/ctools/AngleContextImpl.cpp:42:[Angle] AngleContextImpl() this: 00007F98E165AB30
+[0m[0;32m2026/11/11 04:31:40.733000 284-504/I/ctools/AngleContextImpl.cpp:147:[Angle] AngleContextImpl initialized successfully this: 00007F98E165AB30
+[0m[0;32m2026/11/11 04:31:40.733000 284-504/I/ctools/D3D11TexturePool.cpp:89:[D3D11TexturePool][00007F996254B4B0] success
+[0m[0;32m2026/11/11 04:31:40.733000 284-504/I/ctools/D3D11TextureAllocator.cpp:15:[init]TexturePool init.
+[0m[0;32m2026/11/11 04:31:40.733000 284-504/I/ctools/TextureAllocator.cpp:64:[init]TexturePool init.
+[0m[0;32m2026/11/11 04:31:40.733000 284-504/I/ctools/NeonEngineManagerWrapper.cpp:17:enable neon
+[0m[0;32m2026/11/11 04:31:40.733000 284-504/I/ctools/D3D11Manager.cpp:67:[AngleHolderThread] gl create finish this 00007F98E3E9B660 context 00007F98E1573320,  1
+[0m[0;32m2026/11/11 04:31:40.734000 284-288/I/ctools/D3D11Manager.cpp:33:[D3D11Manager] D3D11Manager initialized successfully.
+[0m[0;32m2026/11/11 04:31:40.734000 284-488/I/ctools/D3D11Manager.cpp:80:[createShareContext] start this 00007F98E3E9B660, glContext 00007F98E1573320
+[0m[0;32m2026/11/11 04:31:40.734000 284-488/I/ctools/AngleContextImpl.cpp:42:[Angle] AngleContextImpl() this: 00007F98E16C2F70
+[0m[0;32m2026/11/11 04:31:40.734000 284-488/I/ctools/AngleContextImpl.cpp:147:[Angle] AngleContextImpl initialized successfully this: 00007F98E16C2F70
+[0m[0;32m2026/11/11 04:31:40.734000 284-488/I/ctools/D3D11Manager.cpp:86:[createShareContext] finish this 00007F98E3E9B660, glContext 00007F98E1573320, new glContext 00007F98E156BFE0
+[0m[0;32m2026/11/11 04:31:40.734000 284-488/I/ctools/GLInfoGrabber.cpp:38:[OpenGLDriverInfo] version: OpenGL ES 3.0.0 (ANGLE 2.1.25750 git hash: ed15cbd416d8), vendor: Google Inc. (NVIDIA), renderer: ANGLE (NVIDIA, NVIDIA GeForce GTX 470 (0x000006CD) Direct3D11 vs_5_0 ps_5_0, D3D11-8.21.13.9135), shader_version: OpenGL ES GLSL ES 3.00 (ANGLE 2.1.25750 git hash: ed15cbd416d8)
+[0m[0;32m2026/11/11 04:31:40.734000 284-488/I/ctools/AngleContextImpl.cpp:47:[Angle] ~AngleContextImpl() this: 00007F98E16C2F70
+[0m[0;32m2026/11/11 04:31:40.734000 284-488/I/ctools/AngleContextImpl.cpp:209:[terminate] AngleContextImpl::terminate() this: 00007F98E16C2F70
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/GraphicsEnvManager.cpp:23:[clear] GraphicsEnvManager clear start.
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/D3D11DeviceAllocator.cpp:32:[release] start
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/D3D11DevicePool.cpp:80:[clear][00007F996208D2A0] cleared, used count: 0
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/D3D11DevicePool.cpp:43:[~D3D11DevicePool][00007F996208D2A0] destroyed start
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/D3D11DevicePool.cpp:80:[clear][00007F996208D2A0] cleared, used count: 0
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/D3D11DevicePool.cpp:45:[~D3D11DevicePool][00007F996208D2A0] destroyed finish
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/D3D11DeviceAllocator.cpp:36:[release] DevicePool released
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/D3D11DeviceAllocator.cpp:38:[release] end
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/TextureAllocator.cpp:55:[release] start
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/TextureAllocator.cpp:58:[release] finish
+[0m[0;32m2026/11/11 04:31:40.735000 284-288/I/ctools/D3D11TextureAllocator.cpp:51:[release] start
+[0m[0;32m2026/11/11 04:31:40.737000 284-516/I/ctools/D3D11TexturePool.cpp:399:[clearInternal][00007F996254B4B0] start
+[0m[0;32m2026/11/11 04:31:40.737000 284-516/I/ctools/D3D11TexturePool.cpp:404:[clearInternal][00007F996254B4B0] finish, cache reuse rate: 0.00
+[0m[0;32m2026/11/11 04:31:40.737000 284-288/I/ctools/D3D11TexturePool.cpp:93:[~D3D11TexturePool][00007F996254B4B0] start
+[0m[0;32m2026/11/11 04:31:40.737000 284-288/I/ctools/TaskDispatch.cpp:99:[stopUntilAllTaskFinished] 00007F98E1673580 stopping gracefully...
+[0m[0;32m2026/11/11 04:31:40.737000 284-516/I/ctools/D3D11TexturePool.cpp:364:[operator ()][00007F996254B4B0] start
+[0m[0;32m2026/11/11 04:31:40.737000 284-516/I/ctools/D3D11TexturePool.cpp:399:[clearInternal][00007F996254B4B0] start
+[0m[0;32m2026/11/11 04:31:40.737000 284-516/I/ctools/D3D11TexturePool.cpp:404:[clearInternal][00007F996254B4B0] finish, cache reuse rate: 0.00
+[0m[0;32m2026/11/11 04:31:40.737000 284-516/I/ctools/D3D11Device.cpp:319:AngleD3D11Device released, ref count: 17
+[0m[0;32m2026/11/11 04:31:40.739000 284-516/I/ctools/D3D11Device.cpp:95:D3D11Device 00007F98E159F450 released, ref count: 0, name: D3D11TexturePool
+[0m[0;32m2026/11/11 04:31:40.739000 284-516/I/ctools/D3D11TexturePool.cpp:385:[operator ()][00007F996254B4B0] finish, cache reuse rate: 0.00
+[0m[0;32m2026/11/11 04:31:40.740000 284-288/I/ctools/TaskDispatch.cpp:114:[stopUntilAllTaskFinished] 00007F98E1673580 stopped gracefully.
+[0m[0;32m2026/11/11 04:31:40.740000 284-288/I/ctools/D3D11TexturePool.cpp:95:[~D3D11TexturePool][00007F996254B4B0] finish
+[0m[0;32m2026/11/11 04:31:40.740000 284-288/I/ctools/AngleContextImpl.cpp:47:[Angle] ~AngleContextImpl() this: 00007F98E165AB30
+[0m[0;32m2026/11/11 04:31:40.740000 284-288/I/ctools/AngleContextImpl.cpp:209:[terminate] AngleContextImpl::terminate() this: 00007F98E165AB30
+[0m[0;32m2026/11/11 04:31:40.740000 284-288/I/ctools/D3D11TextureAllocator.cpp:57:[release] finish
+[0m[0;32m2026/11/11 04:31:40.740000 284-504/I/ctools/AngleBlobCache.cpp:86:[AngleBlobCache] Destroyed.
+[0m[0;32m2026/11/11 04:31:40.740000 284-504/I/ctools/AngleContextImpl.cpp:47:[Angle] ~AngleContextImpl() this: 00007F99625A8660
+[0m[0;32m2026/11/11 04:31:40.740000 284-504/I/ctools/AngleContextImpl.cpp:209:[terminate] AngleContextImpl::terminate() this: 00007F99625A8660
+[0m[0;32m2026/11/11 04:31:40.742000 284-504/I/ctools/AngleContextImpl.cpp:110:[Angle] Default EGL display released.
+[0m[0;32m2026/11/11 04:31:40.742000 284-504/I/ctools/D3D11Manager.cpp:75:[AngleHolderThread] finish this 00007F98E3E9B660
+[0m[0;32m2026/11/11 04:31:40.744000 284-288/I/ctools/GraphicsEnvManager.cpp:25:[clear] GraphicsEnvManager clear finish
+[0m[0;32m2026/11/11 04:31:40.744000 284-288/I/ctools/GLInfoParse.cpp:48:[GLInfoParse] version: OpenGL ES 3.0.0 (ANGLE 2.1.25750 git hash: ed15cbd416d8), vendor: Google Inc. (NVIDIA), renderer: ANGLE (NVIDIA, NVIDIA GeForce GTX 470 (0x000006CD) Direct3D11 vs_5_0 ps_5_0, D3D11-8.21.13.9135), shader_version: OpenGL ES GLSL ES 3.00 (ANGLE 2.1.25750 git hash: ed15cbd416d8)
+[0m{"apkMd5":"","apkSize":0,"apkUrl":"","compress":0,"expired":false,"fileId":7776655,"fileSize":77250,"fileType":"application/zip","filename":"ocr.zip","increment":false,"isRetryTask":false,"md5":"18c9bb0808cc59172ad16393615c0768","moduleId":1514368,"name":"bcut_tpl_img","poolId":1456523,"poolName":"game_ai_tag","publishTime":1770023664,"sourceVersion":0,"totalMd5":"18c9bb0808cc59172ad16393615c0768","url":"https://upos-sz-staticcos.bilivideo.com/appstaticboss/18c9bb0808cc59172ad16393615c0768/ocr.zip","version":3,"versionId":2572361,"zipCheck":true}
+{"apkMd5":"","apkSize":0,"apkUrl":"","compress":0,"expired":false,"fileId":7779231,"fileSize":2159860,"fileType":"application/zip","filename":"bcut-record-tool.zip","increment":false,"isRetryTask":false,"md5":"74e854824c78b6c558ddb1f69827b9a5","moduleId":1515636,"name":"release_tool_exe","poolId":1456521,"poolName":"obs_record_tools","publishTime":1770102826,"sourceVersion":0,"totalMd5":"74e854824c78b6c558ddb1f69827b9a5","url":"https://upos-sz-staticcos.bilivideo.com/appstaticboss/74e854824c78b6c558ddb1f69827b9a5/bcut-record-tool.zip","version":2,"versionId":2573089,"zipCheck":true}
+{"apkMd5":"","apkSize":1162626894,"apkUrl":"","compress":0,"expired":false,"fileId":7750564,"fileSize":93576643,"fileType":"application/zip","filename":"Release.zip","increment":false,"isRetryTask":false,"md5":"14a3d61b858d68a0b529a8ea001518e4","moduleId":1513311,"name":"bcut_ocr_pro","poolId":1456523,"poolName":"game_ai_tag","publishTime":1769501693,"sourceVersion":1886348127,"totalMd5":"14a3d61b858d68a0b529a8ea001518e4","url":"https://upos-sz-staticcos.bilivideo.com/appstaticboss/14a3d61b858d68a0b529a8ea001518e4/Release.zip","version":7,"versionId":2565653,"zipCheck":true}

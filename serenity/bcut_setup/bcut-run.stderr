@@ -1,0 +1,12 @@
+00b0:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\winebth": c00000e5
+0120:err:winediag:ntlm_check_version ntlm_auth was not found. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+0120:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+ERR: SwapChain11.cpp:304 (rx::SwapChain11::resetOffscreenColorBuffer): Could not get offscreen texture shared handle, HRESULT: 0x80004001
+ERR: SwapChain11.cpp:304 (rx::SwapChain11::resetOffscreenColorBuffer): Could not get offscreen texture shared handle, HRESULT: 0x80004001
+ERR: SwapChain11.cpp:304 (rx::SwapChain11::resetOffscreenColorBuffer): Could not get offscreen texture shared handle, HRESULT: 0x80004001
+ERR: SwapChain11.cpp:304 (rx::SwapChain11::resetOffscreenColorBuffer): Could not get offscreen texture shared handle, HRESULT: 0x80004001
+ERR: SwapChain11.cpp:304 (rx::SwapChain11::resetOffscreenColorBuffer): Could not get offscreen texture shared handle, HRESULT: 0x80004001
+ERR: SwapChain11.cpp:304 (rx::SwapChain11::resetOffscreenColorBuffer): Could not get offscreen texture shared handle, HRESULT: 0x80004001
+X connection to :2 broken (explicit kill or server shutdown).
+X connection to :2 broken (explicit kill or server shutdown).
+X connection to :2 broken (explicit kill or server shutdown).
