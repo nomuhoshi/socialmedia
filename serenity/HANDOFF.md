@@ -67,3 +67,29 @@
 - 本机文件：/workspace/serenity/（每篇一个文件夹；示例 20261111_wt 三张图充电、20261112_ant2 两张图免费、20261114_batch6 批量四篇）。
 - 渲染脚本：/workspace/serenity/render_serenity.py；封面工具 nomuhoshi/socialmedia serenity/cover.py（一般用不到，图都由 Claude 出）。
 - 旧版交接：/workspace/serenity/HANDOFF_old_20261112.md。
+
+## 六、怎么选 Serenity 以外的帖子（老大 2026-11-11 定，2026-11-16 补充）
+现状：2026-11-13 起定时巡帖只扫 Serenity。别的账号只在老大点名时做（例：11-14 的 Gemini 4 Hydrogen）。哪天老大说恢复找热点，就按下面这套来。
+
+**看哪些号（固定名单）**
+- 马斯克及其公司：@elonmusk、@SpaceX、@Tesla、@xAI
+- AI 公司和大佬：@OpenAI、@AnthropicAI、@GoogleDeepMind、@sundarpichai、@sama、@karpathy
+- 美股和财经：@unusual_whales、@KobeissiLetter，以及类似的大 V
+- 热点新闻：X 热门和 news
+
+**怎么挑（尽量省额度）**
+1. 先粗筛，这一步不用 AI：用 X 公开读取（search_posts_all），只看过去约 24 小时、或者上次巡帖之后发的帖子，按浏览、点赞、转发排序。
+2. 只把排在前十几条的拿来判断，选 3 篇左右；没有够格的就不搬，不要凑数。
+3. 判断标准有三条：
+   - 有用：观众看完能学到东西，或者能拿来参考投资决定。
+   - 有流量：浏览量高（例子里的帖子多在几十万到几百万）、话题新。
+   - 有信息量：有具体的数字、事实、发布内容。纯情绪、梗、投票结果、短回复都跳过。
+   方向是科技、美股、资讯、热点新闻。
+4. 优先选这两类：新模型或新产品发布当天的官方帖，当天美股的大新闻（比如英伟达暴跌）。和已经发过的视频重复的不选。
+5. 同一件事有多篇帖子时，可以合成一个视频。比如 Gemini 那期用的是 DeepMind 的发布帖加 Sundar Pichai 的说明帖。
+6. 避坑规则和 Serenity 一样：丑闻、热点可以做；中国政治敏感、涉及中国领导人的帖子一律跳过，标题也不能往中国上带；台湾写「中国台湾」。
+
+**做的时候和 Serenity 的区别**
+- 截图时把作者头像也下载下来（pbs.twimg.com），和截图一起发给 Claude，请它把封面上的 Serenity 头像和名字换成这个作者的。Claude 那边已经有马斯克和 DeepMind 的封面模板。
+- 标签换成相关的公司名或人名，再加上美股、投资等，不写 serenity。
+- 其余流程一样：批量发给 Claude，用它原样给的稿子，必剪配音，合成，直接发布，归档到 serenity/posts/。
