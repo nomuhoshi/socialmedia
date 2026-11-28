@@ -1,11 +1,11 @@
-# Serenity 帖子解读视频 · 继承文件（2026-11-25 更新）
+# Serenity 帖子解读视频 · 继承文件（2026-11-28 更新）
 
 对老大称「老大」，用中文。主线：把 Serenity（X @aleabitoreddit）的帖子做成解读视频，发到老大的 B 站「X信息差」（UID 434827378）。
 
 ## 一、当前进度（接手从这里开始）
-- Serenity 已扫到 **2026-11-21 05:39 JST**（英伟达 SEC 调查那条：https://x.com/aleabitoreddit/status/2123878986686333308）。下一次只看这之后的帖子。
+- Serenity 已扫到 **2026-11-28 19:01 JST**（大集群租金涨那条：https://x.com/aleabitoreddit/status/2126617345569567144）。下一次只看这之后的帖子。
 - 11-15～11-18 的发布已归档在 GitHub nomuhoshi/socialmedia → serenity/posts/。
-- 最近发布（时间为北京时间定时点）：
+- 最近发布（定时条目标北京时间；11-28 这批为立即发布，时间是 JST）：
   | 日期 | 标题 | BV | 充电 |
   |---|---|---|---|
   | 11-19 08:00 | 谷歌警告自主攻击 他看多算力 | BV1awsQ6FEQB | 免费 |
@@ -29,6 +29,17 @@
   | 11-26 12:00 | SSD砍单被误读？只是递延到2027 | BV1ri1cziEs4 | 充电，试看35s |
   | 11-26 16:00 | 业内3点警告：黄仁勋不回，护城河没了 | BV1ri1cziE4R | 免费 |
   | 11-26 20:00 | 苹果AI掉队多年，入局反成算力利好 | BV1vXy6zNEqX | 免费 |
+  | 11-28 23:10 JST | 大集群租金涨、小集群降，与抛售相反 | BV11c1uzYEaz | 免费 |
+  | 11-28 23:10 JST | 铠侠不到1倍PE，信里这几点有意思 | BV1KF1uzPEhT | 免费 |
+  | 11-28 23:10 JST | 传闻AI已能破公钥，作者：我们完了？ | BV1KF1uzPEsU | 免费 |
+  | 11-28 23:10 JST | 海力士回购翻倍，作者说已计价2028 | BV1KF1uzPEJT | 充电，试看35s |
+  | 11-28 23:10 JST | 源杰激光产能不够，对独立厂商利好 | BV1KF1uzPEVs | 充电，试看25s |
+  | 11-28 23:10 JST | GPU抵押贷45亿，作者：钱没断 | BV1WP1uzhEio | 免费 |
+  | 11-28 23:10 JST | HPE称缺到2028，企业NAND更坚挺 | BV1NP1uzhEcK | 充电，试看30s |
+  | 11-28 23:10 JST | 890亿市值配890亿保底，闪迪被低估 | BV1WP1uzhEoT | 免费 |
+  | 11-28 23:10 JST | AAOI签22亿长约，客户预测或超百亿 | BV1PP1uzhE4H | 免费 |
+  | 11-28 23:10 JST | AI平台只认1家云，大概率是Nebius | BV1PP1uzhEuM | 免费 |
+  | 11-28 23:10 JST | 黄仁勋复职！作者：AI交易回来了 | BV1PA1uzwERd | 免费 |
 - 待老大决定：要不要补一期 Gemini 4 Carbon（11-10 发布）。老大没回，不要自己做。
 - 全部历史记录：GitHub nomuhoshi/socialmedia → serenity/posts/<日期_主题>/文案.md（含 BV）。
 
@@ -46,20 +57,20 @@
    - 被限的 BV15aWX6vErq 不申诉、不重投。
    - 低信息量的（投票结果、短回复）跳过。
 8. 2026-11-13 起只做 Serenity，不再主动找其他账号的热点。老大点名的非 Serenity 帖子照做：把该账号头像发给 Claude 替换封面上的 Serenity 头像。
-9. **配音（老大已确认，2026-11-21 起以此为准）**：一律用 Gemini 台湾腔甜美女声 `sweet_TW_voice`（`voice_ytvf3ldt85l8`），模型 `gemini-3.8-flash-lite-tts`。不要用 Soft C 柔和亲切（`voice_7fyexrcznram`），也不再用必剪「曼波」。详细命令见 /workspace/serenity/20261121_batch/voice_plan.md。
+9. **配音（老大已确认，2026-11-21 起以此为准）**：一律先用 Gemini 台湾腔甜美女声 `sweet_TW_voice`（`voice_ytvf3ldt85l8`），模型 `gemini-3.8-flash-lite-tts`。不要用 Soft C 柔和亲切（`voice_7fyexrcznram`），也不再用必剪「曼波」。详细命令见 /workspace/serenity/20261121_batch/voice_plan.md。免费档不要开通计费、不要擅自换模型。Gemini 免费额度用完（按日 429 / quota）后，剩余段落改用 Edge TTS `zh-TW-HsiaoChenNeural`（晓臻），环境 `/workspace/venv_edge`，响度处理相同（`volume=5.5dB,alimiter`）。每分钟限流可等待后重试；切到 Edge 后在文案里记下实际用的声音。老大若另行指定 Edge 音色，以最新指示为准。Edge 段首尾常有约 0.2s/0.85s 静音，裁到与 Gemini 相近（约 50ms/280ms）再合成，避免段间出现约 1 秒的静音缝。
 10. **定时发布（老大 2026-11-20 起，以后都这样）**：每天北京时间 08:00、12:00、16:00、20:00 各发一条；多出来的排到第二天同一个四个点，不要再按每小时一条。除非老大点名马上发，否则不要点立即投稿。
 
 ## 三、每条帖子的步骤
 1. **找帖**：可用 X 公开读取（search_posts_all, from:aleabitoreddit）列出新帖；媒体/头像从 pbs.twimg.com 下载。
 2. **截图**：未登录 X 也能看。用原生屏幕截图（不要浏览器截图），约 150% 缩放，拍全正文、引用帖、配图（配图另存大图）、时间/浏览量栏。存 /workspace/serenity/<日期_主题>/x_shots/。
-3. **批量发 Claude**：所有选中的帖子一次性发到「serenity」对话，每篇标编号、作者、日本时间（X 显示美东时间，日本 = 美东 + 14 小时）。例：「最新帖子。时间栏显示的是美东时间，日本时间是 YYYY年MM月DD日 HH:MM。」Claude 要确认就回「确认，按你写的来。」；它提归档 GitHub 就忽略。图按顺序下载到 claude_out/，全文回复存 reply.txt。
+3. **批量发 Claude**：所有选中的帖子一次性发到「serenity」对话，每篇标编号、作者、日本时间（X 显示美东时间，日本 = 美东 + 14 小时）。例：「最新帖子。时间栏显示的是美东时间，日本时间是 YYYY年MM月DD日 HH:MM。」Claude 要确认就回「确认，按你写的来。」；它提归档 GitHub 就忽略。图按顺序下载到 claude_out/，全文回复存 reply.txt。**注意：Claude 单条消息最多接受 20 个附件**，超过必须拆成多条发（不要把 20 张以上的截图/素材塞进同一条）。
 4. **分段**：配音稿一字不改，按句子拼成每段 ≤290 字，存 v/c1.txt、c2.txt……
 5. **配音（Gemini 台湾腔甜美女声）**（老大已确认，2026-11-21 起以此为准；必剪曼波已停用；不要用 Soft C）：
    - 声音：`sweet_TW_voice` / `voice_ytvf3ldt85l8`。模型必须显式指定 `gemini-3.8-flash-lite-tts`（脚本默认是 `gemini-3.8-flash-tts`，不要用默认）。
    - 脚本：`python3 /workspace/voice_ref/gemini_tts.py TEXT_FILE voice_ytvf3ldt85l8 v/ttsN_raw.mp3 --model gemini-3.8-flash-lite-tts --style "speak Mandarin with a Taiwanese accent (台湾腔), soft Taiwanese girl intonation, sweet and cute, normal volume, brisk pace"`
    - API key 用环境变量 `GEMINI_API_KEY`，否则读 `/workspace/voice_ref/gemini_key.txt`（免费档，不要开通计费、不要改密钥）。
    - 再按上次设定提升音量并限制峰值，转成渲染用的 wav：`ffmpeg -y -i v/ttsN_raw.mp3 -af "volume=5.5dB,alimiter" -ac 1 -ar 48000 -sample_fmt s16 v/ttsN.wav`
-   - 按分段依次生成 v/tts1.wav、tts2.wav……稿子一字不改。遇到限流（429）就隔一段时间重试，不要换声音或模型。
+   - 按分段依次生成 v/tts1.wav、tts2.wav……稿子一字不改。遇到每分钟限流（429）就隔一段时间重试，不要换 Gemini 声音或模型，也不要开通计费。若是免费档按日额度用尽，剩余段落改用 `/workspace/venv_edge/bin/edge-tts --voice zh-TW-HsiaoChenNeural`（晓臻），再走同样的 `volume=5.5dB,alimiter` 转 wav，并记下每支视频用的声音。
 6. **合成**（路径相对 --dir）：
    `cd <帖子文件夹> && python3 /workspace/serenity/render_serenity.py --dir v --images 01_cover.png 02_collage.png --chunks c1.txt c2.txt --tts tts1.wav tts2.wav --cut-after "<日期时间那一句>" --output X.mp4`
    - 1.5 秒无声封面前导；`--cut-after` 必须是完整的逗号/句号分隔短句；有第二张拼图时在开始讲它的前一句切。
@@ -82,7 +93,7 @@
 
 ## 五、参考
 - 本机文件：/workspace/serenity/（每篇一个文件夹；示例 20261111_wt 三张图充电、20261112_ant2 两张图免费、20261114_batch6 批量四篇、20261120_batch8 八篇）。
-- 渲染脚本：/workspace/serenity/render_serenity.py；配音脚本 /workspace/voice_ref/gemini_tts.py；封面工具 nomuhoshi/socialmedia serenity/cover.py（一般用不到，图都由 Claude 出）。
+- 渲染脚本：/workspace/serenity/render_serenity.py；配音脚本 /workspace/voice_ref/gemini_tts.py；Gemini 免费额度用尽时的 Edge 回退：`/workspace/venv_edge/bin/edge-tts`（默认 `zh-TW-HsiaoChenNeural` 晓臻）；封面工具 nomuhoshi/socialmedia serenity/cover.py（一般用不到，图都由 Claude 出）。
 - 旧版交接：/workspace/serenity/HANDOFF_old_20261112.md。
 
 ## 六、怎么选 Serenity 以外的帖子（老大 2026-11-11 定，2026-11-16 补充）
